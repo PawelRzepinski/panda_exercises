@@ -1,0 +1,21 @@
+.banner {
+    height: 500px;
+    margin: 20px 0;
+}
+
+.banner--grass {
+    background-image: url("../img/grass.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner--small {
+    height: 250px;
+    background-color: rgb(165, 27, 53);
+}
+
+@media only screen and (max-width: 500px){
+    .banner--grass {
+        height: 300px;
+    }
+}

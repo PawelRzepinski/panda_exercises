@@ -1,0 +1,46 @@
+.box {
+    max-width: 200px;
+    background-color: rgb(26, 161, 171);
+    padding: 40px 20px;
+    margin: 30px 0;
+    color: white;
+}
+
+.box:first-child {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 800px){
+    .box {
+        max-width: none;
+    }
+
+    .box--normal {
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    .box--large {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box:first-child {
+        margin: 20px auto 20px 0;
+    }
+
+    .box:nth-child(2){
+        margin: 20px 0 20px auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .box--normal {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box:first-child {
+        margin-bottom: 0;
+    }
+}

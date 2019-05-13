@@ -1,0 +1,24 @@
+{
+  "name": "0_gulp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.4.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.15.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp-install": "^1.1.0"
+  }
+}
