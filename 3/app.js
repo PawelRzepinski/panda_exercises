@@ -9,7 +9,7 @@ $(function() {
     
     button.after(pictureWindow);
 
-    const pickId = function(res){
+    const pickId = res => {
         data = res.data
 
         for(let i=0; i<data.length; i++){
@@ -18,7 +18,7 @@ $(function() {
         return idArr; 
     }
 
-    const random = function() {
+    const random = () => {
         const min = 0;
         const max = idArr.length;
         const singleElement = Math.floor(Math.random() * (max - min)) + min;
